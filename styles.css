@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -9,18 +14,11 @@ h1, h2, h3, h4, h5 {
     /* font-size: 64px; */
     font-weight: bold;
     color: royalblue;
-    cursor: default;
-    transition: 150ms font-size ease;
 }
 
-h1:hover {
-    color: rgb(163, 203, 255);
-    font-size: 80px;
-}
 
 header {
     background: #FFFFFF;
-    width: 100vw;
     padding-block: 1.5em;
 }
 
@@ -44,7 +42,21 @@ a, a:link, a:hover, a:active {
 
 .pagebody-container {
 
+    min-height: 70vh;
+    width: 100%;
+
     margin-top: 10em;
+    text-align: center;
+
+}
+
+footer {
+
+    background-color: #FFFFFF;
+
+    width: 100%;
+    padding-block: 2em;
+
     text-align: center;
 
 }
